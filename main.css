@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* 폰트 선언 */
 @import url(Css/Font.css);
-
 html,
 body {
   margin: 0px;
@@ -13,7 +12,7 @@ body {
 }
 #navbar div:nth-child(1) {
   width: 100%;
-  height: 2vh;
+  height: 0.4rem;
   background-color: #64f2da;
 }
 #navbar div:nth-child(2) {
@@ -26,25 +25,23 @@ body {
   display: flex;
   justify-content: space-around;
 
-  padding-left: 3vw;
-  padding-right: 3vw;
-
-  margin: 2.5vh;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0.6rem;
 }
 #navbar div:nth-child(2) > ul > li {
   display: flex;
   align-items: center;
 }
 #navbar div:nth-child(2) > ul > li > img {
-  /* width: 8px; */
-  width: 2vh;
+  width: 0.4rem;
   height: auto;
-  margin-right: 0.5vh;
+  margin-right: 0.125rem;
 }
 #navbar div:nth-child(2) > ul > li > a {
   text-decoration: none;
   font-family: "NanumSquareEB";
-  font-size: 1vw;
+  font-size: 0.25rem;
   color: #ffffff;
 }
 
@@ -53,12 +50,12 @@ body {
   justify-content: center;
   align-items: center;
 
-  padding-top: 13vw;
-  padding-bottom: 13vw;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 #logo img {
-  width: 10%;
+  width: 2rem;
   height: auto;
 }
 
@@ -70,52 +67,70 @@ body {
 }
 
 .category.line-breaking {
-  padding-top: 16vw;
+  padding-top: 4rem;
 }
 
+.category div:first-child {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .category div:first-child img {
-  width: 4vh;
+  width: 0.6rem;
   height: auto;
 }
+
+.category div:first-child img:first-child {
+  padding-right: 0.3rem;
+}
+.category div:first-child img:last-child {
+  padding-left: 0.3rem;
+}
+
 .category div:first-child h {
   font-family: "NanumSquareEB";
   color: #494949;
-  font-size: 4.5vh;
+  font-size: 1.25rem;
 }
 
 .category div.app-card {
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 4vh;
+  padding-top: 1.5rem;
 }
 
+.category div.app-card div.app-img {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
 .category div.app-card img:first-child {
-  width: 50vw;
+  width: 10rem;
   height: auto;
 }
 .category div.app-card img:nth-child(2) {
-  width: 20vw;
-  padding-top: 4.5vh;
-  padding-bottom: 4.5vh;
+  width: 4rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .category div.app-card img:last-child {
-  width: 25vw;
+  width: 5rem;
   height: auto;
 }
 .category div.app-card div {
-  padding-top: 5.5vh;
-  padding-left: 5.5vh;
-  padding-right: 5.5vh;
+  padding-top: 2rem;
 }
 .category div.app-card div h {
-  font-size: 5vh;
+  font-size: 1.5rem;
   font-family: "NanumSquareEB";
   color: #00cfc7;
 }
 .category div.app-card div p {
-  font-size: 2vh;
+  font-size: 0.5rem;
   font-family: "NanumSquareB";
   color: #494949;
   margin-top: 0px;
@@ -123,7 +138,7 @@ body {
 }
 
 .category div.line-breaking {
-  padding-top: 25vh;
+  padding-top: 6rem;
 }
 
 .category div.connect {
@@ -134,31 +149,32 @@ body {
   align-items: center;
 }
 .category div.connect p {
-  font-size: 15px;
-  font-size: 3.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  font-size: 1rem;
   font-family: "NanumSquareB";
   color: #494949;
-  border: 0.125vh solid #bfbfbf;
-  border-radius: 2vh;
-
-  padding-left: 10vh;
-  padding-right: 10vh;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+  border: 1px solid #bfbfbf;
+  border-radius: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .category div.peoplecard {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 8vh;
+  padding-top: 3rem;
 }
 .category div.peoplecard img {
   width: 20%;
   height: auto;
 }
 .category div.peoplecard img:nth-child(2) {
-  padding-left: 5.5vh;
-  padding-right: 5.5vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 footer {
   display: flex;
@@ -166,12 +182,9 @@ footer {
   align-items: center;
 }
 footer p {
-  font-size: 1vw;
+  font-size: 0.6rem;
   font-family: "NanumSquareB";
   color: #999999;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
-/* @media screen and (min-width: 320px) {
- 
-} */

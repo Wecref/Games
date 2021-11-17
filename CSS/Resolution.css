@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px) {
+  html,
+  body {
+    font-size: 32px;
+  }
+  #navbar div:nth-child(2) > ul {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 0.4rem;
+  }
+
+  #navbar div:nth-child(2) > ul > li > a {
+    font-size: 0.5rem;
+  }
+  .category div.connect p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #navbar div:nth-child(2) > ul {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin: 0.4rem;
+  }
+  #logo {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #logo img {
+    width: 3.5rem;
+    height: auto;
+  }
+
+  .category div.app-card div.app-img {
+    flex-direction: row;
+    padding-bottom: 1.5rem;
+  }
+  .category div.app-card div.app-img img:first-child {
+    padding-right: 1rem;
+  }
+  .category div.app-card div.app-img img:last-child {
+    padding-left: 1rem;
+  }
+  .category div.app-card {
+    width: 50%;
+  }
+  .category div.app-card div {
+    padding-top: 1rem;
+  }
+}
