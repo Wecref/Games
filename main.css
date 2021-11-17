@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* 폰트 선언 */
-@import url(Css/Font.css);
+@import url(CSS/Font.css);
 html,
 body {
   margin: 0px;
