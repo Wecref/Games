@@ -23,8 +23,8 @@
     margin: 0.4rem;
   }
   #logo {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   #logo img {
@@ -47,5 +47,11 @@
   }
   .category div.app-card div {
     padding-top: 1rem;
+  }
+  .category div.app-card img:last-child {
+    width: 4rem;
+  }
+  .category div.connect p {
+    width: 50%;
   }
 }
