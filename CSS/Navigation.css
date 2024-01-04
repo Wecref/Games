@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+:root {
+  /* 색상 변수 */
+  --nav-main-bg-color: #64f2da;
+  --nav-secondary-bg-color: #00cfc7;
+  --nav-text-color: #ffffff;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar div {
+  width: 100%;
+}
+
+#navbar div:first-child {
+  height: 1em;
+  background-color: var(--nav-main-bg-color);
+}
+
+#navbar div:nth-child(2) {
+  background-color: var(--nav-secondary-bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+#navbar div:nth-child(2)>ul {
+  width: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+#navbar div:nth-child(2)>ul>li {
+  display: flex;
+  align-items: center;
+}
+
+#navbar div:nth-child(2)>ul>li>img {
+  width: .7em;
+  margin-right: 0.25em;
+}
+
+#navbar a {
+  text-decoration: none;
+  font-family: "NanumSquareEB";
+  font-size: 1em;
+  color: var(--nav-text-color)
+}
+
+@media screen and (max-width: 768px) {
+
+  #navbar div:nth-child(2)>ul {
+    width: 70%;
+  }
+}

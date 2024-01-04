@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+.category {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: aqua; */
+}
+
+.line-breaking {
+  padding-top: 5em;
+}
+
+.category>div:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1.5em 0em;
+}
+
+.category .title {
+  font-size: 3em;
+  margin: 0em .2em;
+  font-family: "NanumSquareEB";
+  color: #494949;
+}
+
+.category>div:first-child>img {
+  width: 1.25em;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .category .title {
+    font-size: 2em;
+  }
+}
+
+/* OUR GAMES */
+
+.category>.app-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category>.app-card>.app-img {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.category>.app-card>.app-img img:first-child {
+  max-width: 400px;
+  max-height: 400px;
+  width: 13.4em;
+  margin: .5em;
+}
+
+.category>.app-card>.app-img>img:nth-child(2) {
+  max-width: 320px;
+  height: auto;
+  width: 10.7em;
+  margin: .5em;
+}
+
+/* LINK */
+
+.category>.app-card>.app-link {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2em 0em;
+}
+
+.category>.app-card>.app-link img {
+  max-width: 200px;
+  max-height: 200px;
+  width: 6.8em;
+  margin: .5em;
+}
+
+/* CONNECT */
+.category>.app-card>.app-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+
+.category>.app-card>.app-content h {
+  font-size: 1.7em;
+  font-family: "NanumSquareEB";
+  color: #00cfc7;
+}
+
+.category>.app-card>.app-content p {
+  font-size: 1.2em;
+  font-family: "NanumSquareB";
+  color: #494949;
+  margin: 0em;
+}
+
+.category div.connect {
+  width: 70%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.category div.connect p {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  font-size: 1.5em;
+  font-family: "NanumSquareB";
+
+  color: #494949;
+  border: 1.5px solid #bfbfbf;
+
+  border-radius: 10px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* WHO WE ARE */
+.category div.peoplecard {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.category div.peoplecard>img {
+  max-width: 258px;
+  width: 9em;
+}
+
+@media screen and (max-width: 1024px) {
+  .category div.peoplecard {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .category div.peoplecard>img {
+    width: 6em;
+  }
+}

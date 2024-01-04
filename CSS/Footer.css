@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+footer {
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+
+footer p {
+  font-size: 1em;
+  font-family: "NanumSquareB";
+  color: #999999;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
