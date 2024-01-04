@@ -23,26 +23,27 @@
 #scrollToTopBtn img {
     /* 이미지가 버튼의 전체 영역을 채우도록 */
     display: block;
-    width: 10em;
+
+    width: 88px;
     height: auto;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1920px) {
 
     #scrollToTopBtn img {
-        width: 5.5em;
+        width: 60px;
     }
 }
 
 @media screen and (max-width: 1024px) {
 
     #scrollToTopBtn img {
-        width: 4.5em;
+        width: 50px;
     }
 }
 
 @media screen and (max-width: 425px) {
     #scrollToTopBtn img {
-        width: 3em;
+        width: 40px;
     }
 }
